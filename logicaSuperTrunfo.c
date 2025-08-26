@@ -212,49 +212,59 @@ int main() {
     printf("-----------------------------------------------\n");
 
     if (Populacao_01>Populacao_02){
-      printf("População: A carta 01 venceu!\n");
-    }else{
-      printf("População: A carta 02 venceu!\n");
-    }
+      printf("População: A carta 01 venceu!\n");}
+    else if (Populacao_01 == Populacao_02){
+      printf("Empate!\n");}
+    else{
+      printf("População: A carta 02 venceu!\n");}
+
 
     if (Area_01>Area_02){
-      printf("Area: A carta 01 venceu!\n");
-    }else{
-      printf("Area: A carta 02 venceu!\n");
-    }
+      printf("Area: A carta 01 venceu!\n");}
+    else if (Area_01 == Area_02){
+      printf("Empate!\n");}
+    else{
+      printf("Area: A carta 02 venceu!\n");}
+
 
     if (PIB_01>PIB_02){
-      printf("PIB: A carta 01 venceu!\n");
-    }else{
-      printf("PIB: A carta 02 venceu!\n");
-    }
+      printf("PIB: A carta 01 venceu!\n");}
+    else if (PIB_01 == PIB_02){
+      printf("Empate!\n");}
+    else{
+      printf("PIB: A carta 02 venceu!\n");}
+
 
     if (NumeroDePontosTuristicos_01>NumeroDePontosTuristicos_02){
-      printf("Pontos turisticos: A carta 01 venceu!\n");
-    }else{
-      printf("Pontos turisticos: A carta 02 venceu!\n");
-    }
+      printf("Pontos turisticos: A carta 01 venceu!\n");}
+    else if (NumeroDePontosTuristicos_01 == NumeroDePontosTuristicos_02){
+      printf("Empate!\n");}
+    else{
+      printf("Pontos turisticos: A carta 02 venceu!\n");}
+
 
     if (DesindadeMenorPopulacao_01<DesindadeMenorPopulacao_02){
-      printf("Densidade populacional: A carta 01 venceu!\n");
-    }else{
-      printf("Densidade populacional: A carta 02 venceu!\n");
-    }
+      printf("Densidade populacional: A carta 01 venceu!\n");}
+    else if (DesindadeMenorPopulacao_01 == DesindadeMenorPopulacao_02){
+      printf("Empate!\n");}
+    else{
+      printf("Densidade populacional: A carta 02 venceu!\n");}
+
 
     if (PibPerCapita_01>PibPerCapita_02){
-      printf("PIB per capita: A carta 01 venceu!\n");
-    }else{
-      printf("PIB per capita: A carta 02 venceu!\n");
-    }
+      printf("PIB per capita: A carta 01 venceu!\n");}
+    else if (PibPerCapita_01 == PibPerCapita_02){
+      printf("Empate!\n");}
+    else{
+      printf("PIB per capita: A carta 02 venceu!\n");}
+
 
     if (SuperPoder_01>SuperPoder_02){
-      printf("Super poder: A carta 01 venceu!\n");
-    }else{
-      printf("Super poder: A carta 02 venceu!\n");
-    }
-
-
-    
+      printf("Super poder: A carta 01 venceu!\n");}
+    else if (SuperPoder_01 == SuperPoder_02){
+      printf("Empate!\n");}
+    else{
+      printf("Super poder: A carta 02 venceu!\n");}
 
 
     return 0;
